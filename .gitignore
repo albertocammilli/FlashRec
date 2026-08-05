@@ -1,0 +1,48 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+.venv/
+env/
+ENV/
+pip-log.txt
+
+# --- PyInstaller ---
+build/
+dist/
+*.manifest
+# tieni FlashRec.spec se vuoi versionarlo, altrimenti scommenta:
+# *.spec
+
+# --- PyCharm / JetBrains ---
+.idea/
+*.iml
+*.iws
+.idea_modules/
+
+# --- VS Code ---
+.vscode/
+
+# --- Output dell'app / file di test ---
+*.mp4
+*.wav
+*.avi
+*.mkv
+FlashRec/
+output/
+
+# --- OS ---
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.DS_Store
+
+# --- Varie ---
+*.log
+*.tmp
+*.bak
+.envb
